@@ -49,7 +49,7 @@ class BottomMenuState extends ConsumerState<_BottomMenu> {
     return Center(
       child: Container(
         decoration: BoxDecoration(
-          color: Theme.of(context).selectedRowColor,
+          color: Theme.of(context).colorScheme.surface,
           //color: const Color.fromARGB(255, 255, 0, 0),
           borderRadius: const BorderRadius.only(
               bottomLeft: Radius.circular(CLFullscreenBox.borderRadius),
